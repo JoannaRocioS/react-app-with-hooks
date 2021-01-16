@@ -1,15 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import React, {useState} from 'react'
+import Gifs from './components/Gifs'
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-content">
-        <p className="App-title">
-          Página de Gifs de Cartoons
-        </p>
-      </header>
 
+  return (
+
+    <div className="App">
+      <section>
+        <Gifs></Gifs>
+      </section>
     </div>
   );
 }
