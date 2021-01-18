@@ -1,16 +1,12 @@
-import './App.css';
-import React, {useState} from 'react'
-import Gifs from './components/Gifs'
-
+import './App.css'
+import React from 'react'
+import Header from './components/Header'
 
 function App() {
 
   return (
-
-    <div className="App">
-      <section>
-        <Gifs></Gifs>
-      </section>
+    <div className="app">
+      <Header></Header>
     </div>
   );
 }
